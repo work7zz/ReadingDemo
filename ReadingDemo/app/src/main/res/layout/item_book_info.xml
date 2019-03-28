@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/book_image_id"
+        android:layout_width="72dp"
+        android:layout_height="99dp"
+        android:layout_marginRight="13dp"
+        android:background="#2196F3"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/book_title_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="#303030"
+            android:textSize="17sp"
+            android:text="清墨：许是路漫远"/>
+
+        <TextView
+            android:id="@+id/book_introduction_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textColor="#999999"
+            android:textSize="13sp"
+            android:text="辰东长于气氛的营造，这里面，就有蒙太奇的功劳。比如：在《神墓》..."/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+            <TextView
+                android:id="@+id/book_category1_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="玄幻"
+                android:textSize="10sp"
+                android:textColor="#707070"
+                android:paddingLeft="3dp"
+                android:paddingRight="5dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="3dp"
+                android:background="@drawable/book_category_background"/>
+
+            <TextView
+                android:id="@+id/book_category2_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:text="修仙"
+                android:textSize="10sp"
+                android:textColor="#707070"
+                android:paddingLeft="3dp"
+                android:paddingRight="5dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="3dp"
+                android:background="@drawable/book_category_background"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <include
+        android:id="@+id/more_setting_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E8E8E8"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="49dp"
+        android:visibility="gone">
+    </include>
+
+
+
+</LinearLayout>
