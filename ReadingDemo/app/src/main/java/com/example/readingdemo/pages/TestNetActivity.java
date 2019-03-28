@@ -115,6 +115,7 @@ public class TestNetActivity extends AppCompatActivity {
                                 Log.d("解析后数据", translation.getContent());
                                 output.setBackgroundColor(colors[random.nextInt(5)]);
                                 output.setText(translation.getResult());
+                                Toast.makeText(TestNetActivity.this,"done",Toast.LENGTH_SHORT).show();
                                 InputMethodManager imm = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
                                 imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
                             }
