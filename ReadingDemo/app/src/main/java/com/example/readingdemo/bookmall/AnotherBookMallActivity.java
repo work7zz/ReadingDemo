@@ -56,7 +56,7 @@ public class AnotherBookMallActivity extends AppCompatActivity {
         int bookCount = 100;
         int imageID = R.mipmap.ic_launcher;
         String title = "titletitle";
-        String introduction = "lllllllllllllllllllllllllllllll";
+        String introduction = "lllll";
         String[] categories = {"玄幻","都市生活","都市异能","现代都市","东方玄幻","科幻","历史","军事","悬疑","游戏电竞"};
         Random random = new Random();
         books = new ArrayList<>();
